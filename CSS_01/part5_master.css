@@ -1,0 +1,14 @@
+li{
+  color: red;
+}
+
+/*class will overwrite all items from above:*/
+.topitems{
+  color: blue;
+}
+
+/*id will overwrite class:*/
+#two{
+  color: green;
+  border: 3px solid black;
+}
