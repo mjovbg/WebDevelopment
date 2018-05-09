@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </head>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Open Form -->
+      <form>
+
+            <!-- EMAIL SUBMISSION -->
+
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+
+          <!-- PASSWORD -->
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+
+          <!-- DROPDOWN MENU SELECT -->
+
+          <div class="form-group">
+            <label for="exampleSelect1">Choose Player 1</label>
+            <select class="form-control" id="exampleSelect1">
+              <option></option>
+              <option>Carlsen</option>
+              <option>Karjakin</option>
+
+            </select>
+            <label for="exampleSelect1">Choose Player 2</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>Player 2</option>
+
+            </select>
+          </div>
+          <!-- MULTIPLE SELECT OPTIONS -->
+
+          <div class="form-group">
+            <label for="exampleSelect2">Example multiple select</label>
+            <select multiple class="form-control" id="exampleSelect2">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+
+          <!-- RADIO BUTTONS -->
+
+          <!-- Button 1 -->
+          <fieldset class="form-group">
+            <legend>Radio buttons</legend>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Option one is this and that&mdash;be sure to include why it's great
+              </label>
+            </div>
+            <fieldset class="form-group">
+
+              <!-- button 2 -->
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                  Option two can be something else and selecting will deselct option one
+                </label>
+              </div>
+
+              <!-- Button 3 -->
+            <div class="form-check disabled">
+            <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                Option three is disabled
+              </label>
+            </div>
+
+  </fieldset>
+
+
+            <!-- CHECK BUTTON -->
+
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                Check me out
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <!-- Close form -->
+
+    </div>
+
+  </body>
+</html>
